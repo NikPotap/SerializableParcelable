@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/output_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".OutputPersonDataActivity">
+
+    <LinearLayout
+        android:id="@+id/outputPersonLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/input_margine_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/outputNameLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/outputNameTilteTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/output_name_title"
+                android:textColor="@color/output_tille"
+                android:textSize="@dimen/output_title_textsize"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/outputNameMeaningTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/output_meaning_background"
+                android:paddingHorizontal="@dimen/output_padding_horizontal"
+                android:textColor="@color/output_meaning"
+                android:textSize="@dimen/output_textsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/outputAddressLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/outputAddressTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/output_address_title"
+                android:textColor="@color/output_tille"
+                android:textSize="@dimen/output_title_textsize"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/outputAddressMeaningTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/output_meaning_background"
+                android:paddingHorizontal="@dimen/output_padding_horizontal"
+                android:textColor="@color/output_meaning"
+                android:textSize="@dimen/output_textsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/outputPhoneNumberLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/outputPhoneNumberTitleTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/output_phone_number_title"
+                android:textColor="@color/output_tille"
+                android:textSize="@dimen/output_title_textsize"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/outputPhoneNumberMeaningTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/output_meaning_background"
+                android:paddingHorizontal="@dimen/output_padding_horizontal"
+                android:textColor="@color/output_meaning"
+                android:textSize="@dimen/output_textsize"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonBackBNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/input_margine_top_button_back"
+        android:backgroundTint="@color/output_meaning_background"
+        android:text="@string/button_back_text"
+        android:textColor="@color/output_tille"
+        android:textSize="@dimen/output_title_textsize"
+        android:textStyle="bold" />
+</LinearLayout>

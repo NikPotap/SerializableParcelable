@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="input_margine_horizontal">15dp</dimen>
+    <dimen name="input_margine_top_button_back">15dp</dimen>
+    <dimen name="output_padding_horizontal">5dp</dimen>
+
+    <dimen name="input_title_textsize">20sp</dimen>
+    <dimen name="input_textsize">20sp</dimen>
+    <dimen name="output_title_textsize">24sp</dimen>
+    <dimen name="output_textsize">22sp</dimen>
+
+</resources>

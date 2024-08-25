@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Книга адресов за кадром</string>
+    <string name="input_first_name_title">Имя:</string>
+    <string name="input_first_name_hint">Имя</string>
+    <string name="input_last_name_title">Фамилия:</string>
+    <string name="input_last_name_hint">Фамилия</string>
+    <string name="input_address_title">Адрес:</string>
+    <string name="input_address_hint">Адрес</string>
+    <string name="input_phone_number_title">Телефон</string>
+    <string name="input_phone_number_default">+7</string>
+    <string name="input_phone_number_hint">+71234567890</string>
+    <string name="save_button_text">Сохранить.</string>
+    <string name="output_name_title">Имя пользователя:</string>
+    <string name="output_address_title">Адрес проживания:</string>
+    <string name="output_phone_number_title">Контактный телефон:</string>
+    <string name="button_back_text">ВЕРНУТЬСЯ</string>
+    <string name="error_phone_number">Вводите только цифры и «+» в начале номера.</string>
+    <string name="error_phone_not_digits">Номер должен состоять только из цифр после «+».</string>
+    <string name="error_phone_bad_lenght">Номер должен содержать 11 цифр.</string>
+    <string name="error_name">Используйте только буквы.</string>
+    <string name="error_null">Заполние все поля.</string>
+</resources>
